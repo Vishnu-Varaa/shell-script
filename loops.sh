@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for i in {1..100}
+for i in {"sita,gita,mita"}
 do
-    echo $i
+    $i
 done
