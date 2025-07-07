@@ -1,5 +1,8 @@
 #!/bin/bash
 
+    USERID = $(id -u)
+
+    echo " userid : $USERID "
 
     echo " Installing of mysql -- start"
 
