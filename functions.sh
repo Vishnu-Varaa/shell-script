@@ -8,6 +8,12 @@
 
 USERID=$(id -u)
 
+Addition(){
+
+    SUM=$($1+$2)
+
+}
+
 if [ $USERID -ne 0 ]
 then
     echo "ERROR :: you must have sudo access to execute the script"
@@ -21,6 +27,8 @@ then
     echo "Installing mysql - start"
     dnf install mysql -y
     echo "Installing mysql - completed" 
+    
 else
+    Addition $? $!
     echo "mysql is already installed"
 fi
