@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for i in {"sita,gita,mita"}
+for i in {1..50}
 do
-    $i
+    echo $i
 done
