@@ -1,8 +1,8 @@
 #!/bin/bash
 
 echo " Installing of mysql -- start"
-echo " $(id) "
+# echo " $(sudo id -u) "
 
-dnf install mysqld -y
+sudo dnf install mysqld -y
 
 echo " Installing of mysql -- end"
