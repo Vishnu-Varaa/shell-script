@@ -1,0 +1,1 @@
+dnf install mysqld -y
