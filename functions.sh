@@ -9,8 +9,8 @@
 USERID=$(id -u)
 
 Addition(){
-
-    SUM=$($1+$2)
+    
+   echo "SUM=$($1+$2)"
 
 }
 
