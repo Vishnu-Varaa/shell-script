@@ -9,7 +9,7 @@
 USERID=$(id -u)
 
 Addition(){
-    
+
    echo "SUM=$($1+$2)"
 
 }
@@ -29,6 +29,6 @@ then
     echo "Installing mysql - completed" 
     
 else
-    Addition $? $!
+    Addition $? $$
     echo "mysql is already installed"
 fi
